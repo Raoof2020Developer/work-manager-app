@@ -1,0 +1,24 @@
+.user-image {
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    border: 1px solid gray;
+}
+
+.dropdown-toggle::after {
+    content: '';
+}
+
+.card {
+    box-shadow: 1px 1px 2px rgba($color: #000000, $alpha: .08);
+}
+
+.status {
+    margin-bottom: .8rem;
+    font-size: $small-font-size;
+}
+
+.card-text {
+    font-family: 'Noto Naskh Arabic';
+    font-size: 1.2em;
+}
