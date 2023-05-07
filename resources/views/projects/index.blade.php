@@ -9,7 +9,7 @@
         </div>
 
         <div>
-            <a href="/projects/create" role="btn" class="btn btn-primary">إنشاء مشـروع جديـد</a>
+            <a href="/projects/create" role="button" class="btn btn-primary">إنشاء مشـروع جديـد</a>
         </div>
     </header>
 

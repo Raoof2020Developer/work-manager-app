@@ -15,7 +15,7 @@
         </div>
 
         <div class="d-flex ">
-            <form action="projects/{{$project->id}}" method="POST">
+            <form action="/projects/{{$project->id}}" method="POST">
                 @method('DELETE')
                 @csrf
                 <input type="submit" value="" class="btn-delete" />

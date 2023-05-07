@@ -7,7 +7,7 @@
         <div class="col-md-6 mx-auto">
             <div class="card p-5">
                 <div class="text-center pt-2">
-                    <img style="border: 2px solid black; border-radius: 50%;" src="{{asset('/storage/'. auth()->user()->image)}}" alt="user-avatar" width="82" height="82"/>
+                    <img style="border: 2px solid black; border-radius: 50%;" src="{{asset('storage/images/users/default.png')}}" alt="user-avatar" width="82" height="82"/>
                     <h3 class="mt-4 font-weight-bold">
                         {{auth()->user()->name}}
                     </h3>
